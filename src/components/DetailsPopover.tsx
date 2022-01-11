@@ -52,7 +52,7 @@ export default function DetailsPopover(props: Props) {
     >
       &#8505;
       <div style={{
-        display: hover ? 'block' : 'none',
+        display: 'block',
         zIndex: 1000,
         position: 'absolute',
         borderRadius: '5px',
